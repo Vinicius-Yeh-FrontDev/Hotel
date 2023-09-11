@@ -58,7 +58,6 @@ function inicio(){
         default:
             alert("Digite um valor válido");
             inicio();
-        break;
     }
 }
 function reserva1(){
