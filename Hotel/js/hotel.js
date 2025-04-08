@@ -83,10 +83,10 @@ function reserva2(){
 function reserva3(){
     nomeHospede = prompt("Qual o nome do hóspede?");
     var confirmacaoReserva = prompt(nome+", você confirma a hospedagem para "+nomeHospede+" por "+diasReserva+" dias? S/N");
-    if(confirmacaoReserva=="S"){
+    if(confirmacaoReserva=="S" || confirmacaoReserva=="Sim"){
         alert(nome+", reserva efetuada para "+nomeHospede+". O valor total é de R$"+valorReserva+".");
         inicio();
-    }else if(confirmacaoReserva=="N"){
+    }else if(confirmacaoReserva=="N" || confirmacaoReserva=="Não"){
         alert(nome+", reserva não efetuada.");
         inicio();
     }
